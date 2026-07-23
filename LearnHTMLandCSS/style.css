@@ -7,3 +7,35 @@
     color: blue;
     font-size: 30px;
 } */
+
+/* * {
+    color: blue;
+} */
+
+/* h2 {
+    color:powderblue;
+} */
+
+/* div.box {
+    color: violet;
+} */
+
+/* h2.box2 {
+    color: red;
+} */
+
+/* .box, .box2 {
+    color:aqua;
+} */
+
+/* div h2 {
+    color:blueviolet
+} */
+
+/* div > h2 {
+    color:aqua;
+} */
+
+/* .title + .title {
+    color: green;
+} */
