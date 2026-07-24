@@ -39,3 +39,32 @@
 /* .title + .title {
     color: green;
 } */
+
+/* :root {
+    --text-color: green;
+}
+
+h1 {
+    color: var(--text-color);
+}
+h2 {
+    --local-text: red;
+    color: var(--local-text);
+}
+h3 {
+    color: var(--local-text);
+} */
+
+/* .box {
+    width: 50%;
+    height: 100px;
+    background-color: powderblue;
+} */
+
+/* html {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 1em;
+} */
