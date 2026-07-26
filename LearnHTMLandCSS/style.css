@@ -145,3 +145,64 @@ li:last-child {
     background: violet;
     color: white;
 } */
+
+/* .box {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: green;
+} */
+/* .box3 {
+    background-color: blue;
+    padding-top: 20px;
+} */
+/* .box3 {
+    background-color: blue;
+    padding: 10px 15px 20px 25px;
+} */
+
+/* .box {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+} */
+/* .box2 {
+    background-color: green;
+    margin-left: 800px;
+} */
+/* .box3 {
+    background-color: blue;
+    padding: 20px;
+    border-width: 30px;
+    border-style: double;
+    border-color: #333;
+} */
+/* .box3 {
+    background-color: blue;
+    margin-top: 20px;
+} */
+
+/* html, body {
+    margin: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: violet;
+    padding: 20px;
+    padding: 100px;
+    box-sizing: border-box;
+} */
