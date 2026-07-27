@@ -206,3 +206,51 @@ li:last-child {
     padding: 100px;
     box-sizing: border-box;
 } */
+
+/* html, body {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.5), #ccc),
+    url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp);
+    url(https://pngimg.com/uploads/star/star_PNG41474.png),
+    url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+
+/* html, body {
+    margin:0;
+} */
+/* .header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp);
+    background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+/* } */
+
+/* .header {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    padding: 10px;
+    border: 10px dashed violet;
+    box-sizing: border-box;
+    background-clip: content-box;
+} */
+
+/* .header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 20px dashed violet;
+    padding: 20px;
+    box-sizing: border-box;
+    background-origin: padding-box;
+} */
