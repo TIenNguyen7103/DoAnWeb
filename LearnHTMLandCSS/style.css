@@ -254,3 +254,33 @@ li:last-child {
     box-sizing: border-box;
     background-origin: padding-box;
 } */
+
+/* html, body {
+    margin: 0;
+} */
+/* .box {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-position: top;
+    background-position: top 20px right 20px;
+    background-position: 30px 50px;
+} */
+
+/* .box {
+    width: 100%;
+    height: 100vh;
+    background: url(https://khoanhmoi.com/wp-content/uploads/2026/01/meme-meo-38.webp) no-repeat center / contain;
+} */
+
+/* html, body {
+    margin: 0;
+}
+h1 {
+    position: relative;
+    top: 100px;
+    left: 10px;
+} */
