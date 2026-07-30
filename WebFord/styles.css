@@ -76,3 +76,41 @@ body {
     display: block;
     object-fit: cover;
 }
+.gioi-thieu {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+}
+.header1 h1{
+    text-align: center;
+    margin: 30px 0px;
+}
+.dich-vu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.dich-vu > div {
+    flex: 1;
+    padding: 20px 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px #333;
+}
+.dich-vu h3 {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+.dich-vu p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.dich-vu > div:hover {
+    border-color:blue;
+    background-color: #ffffff;
+}
