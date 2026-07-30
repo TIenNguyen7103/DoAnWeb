@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-header {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.first-header p {
+    margin: 0;
+    display: inline;
+}
+.link-web {
+    display: flex;
+    gap: 5px;
+}
