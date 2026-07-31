@@ -22,13 +22,13 @@ body {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .contact-info {
     display: flex;
-    gap: 15px;
+    gap: 5px;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .link-web img {
     width: 20px;
@@ -113,4 +113,66 @@ body {
 .dich-vu > div:hover {
     border-color:blue;
     background-color: #ffffff;
+}
+.khampha .khamphaxe h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+.danhmuc {
+    width: fit-content;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+    margin: 0 auto;
+}
+.tatca {
+    border-bottom: 5px solid;
+}
+.xe img {
+    width: 230px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    margin: 20px 0;
+}
+.xe > img:hover {
+    transform: scale(1.08)
+}
+.cacloaixe {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cacloaixe .xe {
+    width: 312px;
+    height: 305px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #333;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.xe > p {
+    color: blue;
+    margin: 10px 0;
+}
+.xe > .new-2026 {
+    display: block;
+    width: 80px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    position: absolute; 
+    top: 10px;          
+    left: 10px;
 }
