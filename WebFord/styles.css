@@ -164,15 +164,126 @@ body {
     margin: 10px 0;
 }
 .xe > .new-2026 {
-    display: block;
+    display: flex;
     width: 80px;
-    height: 20px;
+    height: 30px;
     background-color: blue;
     color: white;
     border-radius: 10px;
-    text-align: center;
     font-size: 13px;
     position: absolute; 
     top: 10px;          
     left: 10px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.noibatto {
+    background-color: rgb(238, 238, 238);
+}
+.noibat {
+    margin: 50px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 25px 0;
+}
+.noibat1, .noibat2, .noibat3 {
+    width: 416px;
+    height: 554px;
+    position: relative;
+}
+.noibat1 {
+    background-image: url(https://thanglongford.com.vn/public/upload/banner/promo-image/ranger.webp);
+}
+.noibat2 {
+    background-image: url(https://thanglongford.com.vn/public/upload/banner/promo-image/everest.webp);
+
+}
+.noibat3 {
+    background-image: url(https://thanglongford.com.vn/public/upload/banner/promo-image/raptor.webp);
+
+}
+.noibat1 .chitietnoibat, .noibat2 .chitietnoibat, .noibat3 .chitietnoibat {
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.chitietnoibat h3 {
+    font-size: 20px;
+}
+.chitietnoibat > h3, p {
+    margin: 10px 0; 
+}
+.xemngay {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.xemngay:hover {
+    background-color: blue;
+    transition: all 0.3s ease;
+}
+.dichvu1 {
+    text-align: center;
+}
+.dichvu2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+.dichvu {
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+}
+.p1 {
+    color: blue;
+}
+.p2 {
+    font-weight: bold;
+    font-size: 17px;
+}
+.dichvu:hover {
+    background-color: rgb(21, 0, 80);
+    transition: all 0.3s ease;
+    color: white;
+}
+.dichvu2 i {
+    font-size: 50px;
+    padding-top: 20px;
+}
+.baoduong {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.lichbaoduong {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(21, 0, 80);
+    color: white;
+    padding: 20px;
+}
+.lichbaoduong:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: rgb(21, 0, 80);
 }
