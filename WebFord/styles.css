@@ -500,3 +500,59 @@ body {
     gap: 5px;
     padding-top: 20px;
 }
+.cacmucthem {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.mucthemnho {
+    width: 300px;
+}
+.mucthemnho h4 {
+    padding: 15px 5px;
+}
+a {
+    padding: 5px 5px 0 5px;
+    display:grid;
+    text-decoration: none;
+}
+.thongtinchung {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon {
+    display: flex;
+    gap: 5px;
+}
+.icon a img {
+    width: 25px;
+    height: 25px;
+}
+.hotline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.hotlineicon i {
+    width:25px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    background-color: blue;
+}
+.lienhe1 p {
+    display: flex;
+    align-items: center;
+}
+.thecuoi {
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
