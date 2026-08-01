@@ -287,3 +287,216 @@ body {
     background-color: white;
     color: rgb(21, 0, 80);
 }
+.dathen {
+    width: 100%;
+    height: 413px;
+    background-image: url(https://thanglongford.com.vn/public/upload/files/banner-dklaithu.jpg);
+    background-size: cover;
+    position: relative;
+}
+.henlaithu {
+    width: 500px;
+    height: auto;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+.henlaithu p {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.henlaithu p:hover {
+    background-color: rgb(21, 0, 80);
+    transition: all 0.3s ease;
+}
+.ttsk {
+    background-color: rgb(238, 238, 238);
+}
+.ttsk-header {
+    padding: 40px 0 20px 0;
+    margin-left: 100px;
+}
+.muc-ttsk {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+.muc-ttsk-nho1, .muc-ttsk-nho2 {
+    padding: 0 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.muc-ttsk-nho1 {
+    background-color: white;
+}
+.muc-ttsk-nho2 {
+    background-color: blue;
+    color: white;
+}
+.tintucall {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 50px; 
+}
+.tintuc {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+}
+.tintuc img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tintuc img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.ngaydang {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    font-size: 12px;
+    position: relative;
+    border: 1px solid white;
+}
+.khuyenmai, .tintuc1 {
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tintucheader h4 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tintucheader p {
+    font-size: 14px;
+}
+.chitiet {
+    height: 30px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-weight: bold;
+}
+.chitiet:hover {
+    border-bottom: 2px solid black;
+    transition: all 0.3s ease;
+}
+.gioithieuchung {
+    padding-top: 30px;
+}
+.gioithieu {
+    text-align: center;
+}
+.anhgioithieu {
+    background-image: url(https://thanglongford.com.vn/public/upload/files/ChatGPT%20Image%2012_07_20%2014%20thg%206%2C%202026.png);
+    background-size: cover;
+    width: 1296px;
+    height: 324px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.khungdanhgia {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.danhgia {
+    width: 380px;
+    height: 380px;
+    /* border: 0.5px solid black; */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px #7a7a7a;
+}
+.sao {
+    margin: 30px 0;
+}
+.binhluan {
+    font-size: 18px;
+    margin: 0 20px;
+    border: 1px solid white;
+}
+.anhkhachhang1 {
+    background-image: url(https://thanglongford.com.vn/public/upload/feedback/Screenshot_5.jpg);
+}
+.anhkhachhang2 {
+    background-image: url(https://thanglongford.com.vn/public/upload/feedback/Screenshot_1.jpg);
+}
+.anhkhachhang3 {
+    background-image: url(https://thanglongford.com.vn/public/upload/feedback/Ahungh.jpg);
+}
+.anhkhachhang1, .anhkhachhang2, .anhkhachhang3 {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 20px auto;
+}
+.doitacheader {
+    color: blue;
+    text-align: center;
+    margin: 60px;
+}
+.doitacanh {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.anhdoitac {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 30px;
+}
+.vitri {
+    position: relative;
+}
+.lienhe {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(21, 0, 80);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.hinhanh > i {
+    font-size: 40px;
+}
+.hinhanh {
+    width: 50px;
+    height: 50px;
+}
+.tt {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 0;
+    gap: 5px;
+    padding-top: 20px;
+}
