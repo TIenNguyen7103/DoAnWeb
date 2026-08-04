@@ -6,7 +6,6 @@
 }
 .first-header {
     display: flex;
-    padding: 5px 15px;
     justify-content: space-between;
     align-items: center;
 }
@@ -15,17 +14,18 @@
     display: inline;
     color: rgb(21, 0, 80);
 }
+.first-header a {
+    text-decoration: none;
+}
 .link-web {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-right: 100px;
 }
 .contact-info {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-left: 100px;
 }
 .link-web a {
     width: 25px;
@@ -38,9 +38,11 @@
     justify-content: center;
     position: absolute;
 }
+
+
 .first-taskbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 30px;
     padding: 10px 0px;
@@ -72,43 +74,43 @@
     cursor: pointer;
     background-color: rgb(21, 0, 80);
 }
-.background-image {
-    width: 100%;
-    overflow: hidden;
-}
+
+
 .background-image img {
     width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
 }
+
+
 .gioi-thieu {
     width: 100%;
     height: auto;
     padding: 10px;
     background-color: rgb(238, 238, 238);
 }
-.header1 h1{
+.header1 h2{
     text-align: center;
     margin: 30px 0px;
+    font-weight: bold;
 }
 .dich-vu {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 30px auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     padding: 0 15px;
 }
 .dich-vu > div {
     display: flex;
     flex: 1;
     padding: 20px 15px;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: 8px;
     box-shadow: 0 1px 3px #333;
+    transition: all 0.3s ease;
 }
-.dich-vu h3 {
+.dich-vu h6 {
+    color: rgb(21, 0, 80);
     margin: 0 0 8px 0;
     font-weight: bold;
 }
@@ -124,6 +126,11 @@
     border-color:blue;
     background-color: #ffffff;
 }
+.dich-vu div:hover h6{
+    color: blue;
+}
+
+
 .khampha .khamphaxe h1 {
     text-align: center;
     margin: 40px 0;
