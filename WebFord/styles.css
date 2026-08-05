@@ -1,3 +1,9 @@
+/* 3 màu chính:
+
+   - Xanh đậm: rgb(117, 114, 154)
+   - Xanh dương nhạt: rgb(15, 111, 239)
+   - Xám: rgb(245, 247, 247) */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -82,22 +88,15 @@
 
 
 .gioi-thieu {
-    width: 100%;
-    height: auto;
     padding: 10px;
     background-color: rgb(238, 238, 238);
 }
 .header1 h2{
-    text-align: center;
-    margin: 30px 0px;
     font-weight: bold;
 }
 .dich-vu {
-    display: flex;
-    justify-content: center;
     gap: 15px;
-    margin: 30px auto;
-    /* max-width: 1200px; */
+    /* margin: 30px auto; */
     padding: 0 15px;
 }
 .dich-vu > div {
@@ -262,6 +261,7 @@
     padding: 40px;
 }
 .dichvu2 a {
+    text-decoration: none;
     color: rgb(21, 0, 80)   
 }
 .dichvu {
