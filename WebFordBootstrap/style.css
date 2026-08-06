@@ -1,0 +1,21 @@
+/* 3 màu chính:
+
+   - Xanh đậm: rgb(0, 9, 91)
+   - Xanh dương nhạt: rgb(15, 111, 239)
+   - Xám: rgb(245, 247, 247) */
+
+
+:root {
+    --main-color: rgb(117, 114, 154);
+    --background-second-color: rgb(245, 247, 247);
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: rgb(0, 9, 91);
+}
+.row {
+    border: 1px solid green;
+}
