@@ -156,3 +156,85 @@ h2 span {
 .nddv1:hover i , .nddv1:hover span{
     color: white;
 }
+
+/* Đặt lịch bảo dưỡng */
+.dl {
+border-radius: 10px;
+  width: fit-content;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid var(--main-color);
+  background-image: linear-gradient(to right, white 50%, var(--main-color) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.4s ease-in-out;
+}
+.dl span, .dl i {
+    color: white;
+}
+.dl:hover {
+    background-position: left bottom;
+}
+.dl:hover span, .dl:hover i {
+    color: var(--main-color);
+}
+
+/* Đặt lịch hẹn lái thử */
+.hlt {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    background-image: url(https://thanglongford.com.vn/public/upload/files/banner-dklaithu.jpg);
+}
+.hlt1 h2, .hlt1 a{
+    color: white;
+    width: 460px;
+    padding: 10px;
+}
+.hlt1 h2 {
+    font-weight: bold;
+}
+.hlt1 a {
+    margin-top: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: var(--second-color);
+    transition: background-color 0.3s ease;
+}
+.hlt1 a:hover {
+    background-color: var(--main-color);
+}
+
+/* Tin tức sự kiện */
+.ttskh span{
+    font-weight: bold;
+}
+.card .anh {
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.anh img {
+    transition: all 0.3s ease;
+}
+.card:hover img {
+    transform: scale(1.05);
+}
+.card-body div span {
+    font-size: 13px;
+}
+.card-body div a {
+    text-decoration: none;
+    font-size: 13px;
+}
+.card-body {
+    border: 1px solid red;
+}
+.card-date .tintuc{
+    border-radius: 5px;
+    padding: 1px 5px;
+    background-color: rgb(212, 38, 0);
+}
