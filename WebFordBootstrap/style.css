@@ -73,7 +73,86 @@ h2 span {
 /* Khám phá xe */
 .tt1 a {
     text-decoration: none;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
-.tt1 {
-    padding: 20px;
+.tt1 > div {
+    border-radius: 10px;
+}
+.tt1 img {
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.tt1 a:hover img{
+    transform: scale(1.05);
+}
+.tt1 .card:hover {  
+    border: 1px solid var(--second-color)
+}
+.tt1 h5 {
+    color: #333;
+    font-weight: bold;
+}
+.tt1 p, .tt1 span {
+    font-size: 18px;
+    color: var(--second-color);
+}
+.tt1 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.tt1 h5, .tt1 p {
+    text-align: center  ;
+}
+
+/* Sản phẩm nổi bật */
+.sp h4, .sp p, .sp a {
+    color: white;
+}
+.sp h4 {
+    font-weight: bold;
+}
+.sp a {
+    font-weight: bold;
+    text-decoration: none;
+    width:fit-content;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.sp a:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/* Dịch vụ */
+.dv2h .h2 {
+    font-weight: bold;
+}
+.nddv1 i{
+    font-size: 50px;
+}
+.nddv a{
+    text-decoration: none;
+}
+.nddv1 {
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.nddv1 span {
+    font-weight: bold;
+    font-size: 18px;
+}
+.nddv p {
+    color: var(--second-color);
+}
+.nddv1:hover {
+    background-color: var(--main-color);
+}
+.nddv1:hover i , .nddv1:hover span{
+    color: white;
 }
