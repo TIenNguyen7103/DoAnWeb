@@ -221,20 +221,78 @@ border-radius: 10px;
     transition: all 0.3s ease;
 }
 .card:hover img {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
-.card-body div span {
+.card-link {
+    width: fit-content;
+}
+.card:hover .card-link span {
+    border-color: var(--main-color);
+}
+.card-body div p {
     font-size: 13px;
 }
-.card-body div a {
-    text-decoration: none;
-    font-size: 13px;
-}
-.card-body {
-    border: 1px solid red;
+.card-body .card-link span {
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
 }
 .card-date .tintuc{
     border-radius: 5px;
-    padding: 1px 5px;
-    background-color: rgb(212, 38, 0);
+}
+.card .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Thông tin chung */
+
+/* Header */
+.ttch span {
+    font-weight: bold;
+}
+
+/* Hình ảnh */
+.ttcimg {
+    width: 100%;
+}
+.ttcimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Đánh giá từ khách hàng */
+/* Chiều rộng, chiều cao cố định và đổ bóng tùy chỉnh của Card */
+.custom-card {
+    width: 380px;
+    height: 380px;
+    border: 0.5px solid black;
+    box-shadow: 0 2px 2px 2px #7a7a7a;
+    margin: 0 auto; /* Căn giữa card khi thu nhỏ màn hình */
+}
+
+/* Khoảng cách ngôi sao */
+.sao {
+    margin: 20px 0 10px 0;
+}
+
+/* Kích thước chữ bình luận */
+.binhluan {
+    font-size: 18px;
+    height: 140px; /* Đảm bảo phần nội dung chữ cố định chiều cao */
+    overflow: hidden;
+}
+
+/* Kích thước ảnh đại diện khách hàng */
+.avatar-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
