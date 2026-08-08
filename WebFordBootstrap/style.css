@@ -40,9 +40,6 @@
 h2 span {
     font-weight: bold;
 }
-.mucdv > div {
-    gap: 10px;
-}
 .mdv a {
     text-decoration: none;
 }
@@ -61,6 +58,7 @@ h2 span {
     font-weight: bold;
 }
 .dklticon i {
+    color: var(--second-color);
     font-size: 25px;
 }
 .mdvc:hover {
@@ -220,7 +218,7 @@ border-radius: 10px;
 .anh img {
     transition: all 0.3s ease;
 }
-.card:hover img {
+.ttskien .card:hover img {
     transform: scale(1.1);
 }
 .card-link {
@@ -268,31 +266,98 @@ border-radius: 10px;
 }
 
 /* Đánh giá từ khách hàng */
-/* Chiều rộng, chiều cao cố định và đổ bóng tùy chỉnh của Card */
-.custom-card {
-    width: 380px;
-    height: 380px;
-    border: 0.5px solid black;
-    box-shadow: 0 2px 2px 2px #7a7a7a;
-    margin: 0 auto; /* Căn giữa card khi thu nhỏ màn hình */
+.dgia .star i {
+    color: orange;
+}
+.dgia .ttkh h5, .dgia .ttkh p{
+    font-weight: bold;
 }
 
-/* Khoảng cách ngôi sao */
-.sao {
-    margin: 20px 0 10px 0;
+/* Đối tác bảo hiểm */
+.dtbh .dtimg img {
+    border-radius: 20px;
 }
 
-/* Kích thước chữ bình luận */
-.binhluan {
-    font-size: 18px;
-    height: 140px; /* Đảm bảo phần nội dung chữ cố định chiều cao */
-    overflow: hidden;
+/* Vị trí */
+.vitri {
+    width: 100%;
+    min-height: auto;
+}
+.ttlh1 {
+    border-radius: 20px;
+    width: fit-content;
+    color: white;
+    background-color: var(--main-color);
+}
+.ttlh2 i{color:white;}
+.ttlh2 p {
+    color: rgb(139, 143, 171)
+}
+.xembd {
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid var(--main-color);
+    background-image: linear-gradient(to right, white 50%, var(--main-color) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.4s ease-in-out;
+}
+.xembd:hover {
+    background-position: left bottom;
+}
+.xembd a{
+    color: white;
+    transition: color 0.3s ease;
+}
+.xembd:hover a{
+    color:var(--main-color);
 }
 
-/* Kích thước ảnh đại diện khách hàng */
-.avatar-img {
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-    margin-bottom: 10px;
+/* Thông tin chung */
+.ttc li a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Liên hệ chung */
+.lhc li{
+    font-size: 15px;
+}
+.hbd, .hlthu {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.hbd {
+    color: white;
+    background-color: var(--main-color);
+    transition: background-color 0.3s ease;
+}
+.hlthu {
+    border: 1px solid var(--main-color);
+    transition: all 0.3s ease;
+}
+.hbd:hover {
+    background-color: var(--second-color);
+}
+.hlthu:hover {
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+}
+.hlthu:hover span{
+    color: white;
+}
+.glv span {
+    font-weight: bold;
+}
+.glv a {
+    text-decoration:none;
+}
+
+/* Chân trang */
+.ct {
+    background-color: var(--main-color);
 }
